@@ -18,4 +18,4 @@ async def on_message(message):
 	if message.content.startswith('m!help'):
 		await client.send_message(message.channel, "HELP")
 
-client.run("BOT_TOKEN);
+client.run("BOT_TOKEN");
