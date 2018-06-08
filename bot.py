@@ -15,7 +15,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-	if message.content.startswith('ping'):
-		await client.send_message(message.channel, "pong")
+	if message.content.startswith('bing'):
+		await client.send_message(message.channel, "bong")
 
 client.run("NDU0NzUzOTg3MDUzNDg2MDkw.DfyPlA.Mveayqzgk_h6KU_goTxNJaCOeWQ");
