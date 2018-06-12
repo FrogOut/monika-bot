@@ -27,5 +27,7 @@ async def on_message(message):
 		await client.send_message(message.channel, "Good night :full_moon:")
 	if message.content.startswith('hello'):
 		await client.send_message(message.channel, "Hi! How are you today? :monasmile:")
+	if message.content.startswith('hang'):
+		await client.send_message(message.channel, "Now that you're saying that, this reminds me of somebody...")
 	
 client.run("NDU0NzUzOTg3MDUzNDg2MDkw.DfyPlA.Mveayqzgk_h6KU_goTxNJaCOeWQ");
