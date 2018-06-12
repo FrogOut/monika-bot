@@ -26,8 +26,8 @@ async def on_message(message):
 	if message.content.startswith('night'):
 		await client.send_message(message.channel, "Good night :full_moon:")
 	if message.content.startswith('m!triggers'):
-		await client.send_message(message.channel, "This bot is still in the makings, 
+		await client.send_message(message.channel, """This bot is still in the makings, 
 Currently availlable 'trigger words': 
-bing, morning, afternoon, evening, night")
+bing, morning, afternoon, evening, night""")
 		
 client.run("NDU0NzUzOTg3MDUzNDg2MDkw.DfyPlA.Mveayqzgk_h6KU_goTxNJaCOeWQ");
