@@ -8,7 +8,7 @@ There are a number of utility commands being showcased here.'''
 # this specifies what extensions to load when the bot starts up
 startup_extensions = ["members", "rng"]
 
-bot = commands.Bot(command_prefix='?', description=description)
+bot = commands.Bot(command_prefix='m!', description=description)
 
 @bot.event
 async def on_ready():
