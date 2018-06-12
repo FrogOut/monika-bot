@@ -17,9 +17,6 @@ async def on_ready():
 async def on_message(message):
 	if message.content.startswith('bing'):
 		await client.send_message(message.channel, "bong")
-
-@client.event
-async def on_message(message):
 	if message.content.startswith('morning'):
 		await client.send_message(message.channel, "Good morning <3")
 		
