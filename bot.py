@@ -19,5 +19,11 @@ async def on_message(message):
 		await client.send_message(message.channel, "bong")
 	if message.content.startswith('morning'):
 		await client.send_message(message.channel, "Good morning <3")
+	if message.content.startswith('afternoon'):
+		await client.send_message(message.channel, "Good afternoon :white_sun_cloud:")
+	if message.content.startswith('evening'):
+		await client.send_message(message.channel, "Good evening :city_sunset:")
+	if message.content.startswith('night'):
+		await client.send_message(message.channel, "Good night :full_moon:")
 		
 client.run("NDU0NzUzOTg3MDUzNDg2MDkw.DfyPlA.Mveayqzgk_h6KU_goTxNJaCOeWQ");
